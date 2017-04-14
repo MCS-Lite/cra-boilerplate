@@ -1,5 +1,6 @@
-# cra-boilerplate
-[WIP] Demo how to use mcs-lite-ui with CRA.
+# \[WIP\] cra-boilerplate
+
+> Demo how to use mcs-lite-ui with CRA.
 
 ## Step
 
