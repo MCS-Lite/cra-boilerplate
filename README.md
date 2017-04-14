@@ -2,6 +2,8 @@
 
 > Demo how to use mcs-lite-ui with CRA.
 
+![DEMO](./docs/demo.gif)
+
 ## Step
 
 ### 1. Create a project with zero config
