@@ -25,6 +25,7 @@ $ yarn add normalize.css
 ```
 
 ```js
+// src/index.js
 import 'normalize.css';
 import { ThemeProvider } from 'styled-components';
 import { theme } from 'mcs-lite-theme';
@@ -32,4 +33,18 @@ import { theme } from 'mcs-lite-theme';
 <ThemeProvider theme={theme}>
   <App />
 </ThemeProvider>
+```
+
+### 4. Create your first react component and layout with styled-components
+
+```js
+import styled from 'styled-components';
+
+const Center = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+`;
+
+export default Center;
 ```

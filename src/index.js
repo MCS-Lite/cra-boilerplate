@@ -4,7 +4,6 @@ import App from './App';
 import { ThemeProvider, injectGlobal } from 'styled-components';
 import { theme } from 'mcs-lite-theme';
 import 'normalize.css';
-import './index.css';
 
 injectGlobal`
   html {
