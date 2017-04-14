@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "mcs-lite-connect": "^0.2.3",
     "mcs-lite-icon": "^0.2.3",
     "mcs-lite-theme": "^0.2.4",
     "mcs-lite-ui": "^0.3.4",

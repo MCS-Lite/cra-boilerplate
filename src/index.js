@@ -1,3 +1,5 @@
+/* eslint no-unused-expressions:0 */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -12,7 +14,6 @@ injectGlobal`
   }
 
   body {
-    font-family: "Noto Sans TC", "RionaSans", "Helvetica", "微軟正黑體", "Microsoft JhengHei", "黑體-繁", "Heiti TC", "新細明體", "PMingLiU", "sans-serif";
     background-color: ${theme.base.bodyBackgroundColor};
     color: ${theme.base.bodyColor};
     margin: 0;

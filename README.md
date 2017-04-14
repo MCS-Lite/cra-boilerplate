@@ -48,3 +48,20 @@ const Center = styled.div`
 
 export default Center;
 ```
+
+### 5. Connect MCS Lite with WebSocket
+
+```
+$ yarn add mcs-lite-connect
+```
+
+```js
+export default connectSocket(
+  // 1. urlMapper => (ownerProps: Object) => string
+  props => props.url,
+  // 2. onMessage => (ownerProps: Object) => datapoint => void
+  props => datapoint => props.setDatapoint(datapoint),
+  // 3. propsMapper => state => props
+  ({ send }) => ({ send }),
+)(MCSSwitch);
+```
