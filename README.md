@@ -3,7 +3,7 @@
 
 ## Step
 
-1. Create-React-App
+### 1. Create a project with zero config
 
 ```
 $ npm i create-react-app -g
@@ -12,3 +12,8 @@ $ cd cra-boilerplate
 $ yarn start
 ```
 
+### 2. Introduce mcs-lite packages
+
+```
+$ yarn add mcs-lite-ui mcs-lite-theme mcs-lite-icon styled-components@next
+```
