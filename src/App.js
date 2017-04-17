@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Heading } from 'mcs-lite-ui';
+import Heading from 'mcs-lite-ui/lib/Heading';
 import MCSSwitch from './components/MCSSwitch';
 import Center from './components/Center';
 
+// Configs
 const DOMAIN = 'ws://0.0.0.0:8000';
 const DEVICE_ID = 'S1Mart-9g';
 const DEVICE_KEY = '3a4eee2d697dc032334fcd9c1e1597fa2f56cfe8a222501f049dcb26a4e52f80';
