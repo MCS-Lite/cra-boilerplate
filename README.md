@@ -1,6 +1,6 @@
-# \[WIP\] cra-boilerplate [![Build Status](https://travis-ci.com/MCS-Lite/cra-boilerplate.svg?token=M5W8N3UE7Z9icpshis3W&branch=master)](https://travis-ci.com/MCS-Lite/cra-boilerplate)
+# cra-boilerplate [![TravisCI](https://travis-ci.com/MCS-Lite/cra-boilerplate.svg?token=M5W8N3UE7Z9icpshis3W&branch=master)](https://travis-ci.com/MCS-Lite/cra-boilerplate)
 
-> Demo how to use mcs-lite-ui with CRA.
+> Create a MCS Lite Web App based on Create-React-App.
 
 ![DEMO](./docs/demo.gif)
 
@@ -68,12 +68,10 @@ $ yarn add mcs-lite-connect
 ```
 
 ```js
+// API: https://github.com/MCS-Lite/mcs-lite/tree/master/packages/mcs-lite-connect
 export default connectSocket(
-  // 1. urlMapper => (ownerProps: Object) => string
   props => props.url,
-  // 2. onMessage => (ownerProps: Object) => datapoint => void
-  props => datapoint => props.setDatapoint(datapoint),
-  // 3. propsMapper => state => props
+  props => datapoint => props.onChange(datapoint),
   ({ send }) => ({ send }),
 )(MCSSwitch);
 ```
