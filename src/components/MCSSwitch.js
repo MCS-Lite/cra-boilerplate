@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { DataChannelAdapter } from 'mcs-lite-ui';
+import DataChannelAdapter from 'mcs-lite-ui/lib/DataChannelAdapter';
 import { connectSocket } from 'mcs-lite-connect';
 
 class MCSSwitch extends Component {
@@ -34,11 +34,9 @@ class MCSSwitch extends Component {
   }
 }
 
+// API: https://github.com/MCS-Lite/mcs-lite/tree/master/packages/mcs-lite-connect
 export default connectSocket(
-  // 1. urlMapper => (ownerProps: Object) => string
   props => props.url,
-  // 2. onMessage => (ownerProps: Object) => datapoint => void
   props => datapoint => props.setDatapoint(datapoint),
-  // 3. propsMapper => state => props
   ({ send }) => ({ send }),
 )(MCSSwitch);

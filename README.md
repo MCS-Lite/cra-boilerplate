@@ -4,7 +4,16 @@
 
 ![DEMO](./docs/demo.gif)
 
-## Step
+## Usage
+
+```
+$ yarn install
+$ yarn start
+```
+
+> User Guide: https://github.com/facebookincubator/create-react-app
+
+## Logs
 
 ### 1. Create a project with zero config
 
