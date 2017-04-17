@@ -20,7 +20,7 @@ class App extends Component {
         <MCSSwitch
           datachannelId={DATACHANNEL_ID}
           url={`${DOMAIN}/deviceId/${DEVICE_ID}/deviceKey/${DEVICE_KEY}`}
-          setDatapoint={datapoint => this.setState({ values: datapoint.values })}
+          onChange={datapoint => this.setState({ values: datapoint.values })}
           values={this.state.values}
         />
       </Center>

@@ -6,4 +6,6 @@ const Center = styled.div`
   flex-direction: column;
 `;
 
+Center.displayName = 'Center';
+
 export default Center;
