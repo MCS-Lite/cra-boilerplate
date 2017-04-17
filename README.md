@@ -1,4 +1,4 @@
-# \[WIP\] cra-boilerplate
+# \[WIP\] cra-boilerplate [![Build Status](https://travis-ci.com/MCS-Lite/cra-boilerplate.svg?token=M5W8N3UE7Z9icpshis3W&branch=master)](https://travis-ci.com/MCS-Lite/cra-boilerplate)
 
 > Demo how to use mcs-lite-ui with CRA.
 
