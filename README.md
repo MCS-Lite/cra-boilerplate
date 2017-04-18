@@ -2,6 +2,8 @@
 
 > Create a MCS Lite Web App based on Create-React-App.
 
+-   Try it online - http://cra-boilerplate.netlify.com/
+
 ![DEMO](./docs/demo.gif)
 
 ## Usage
