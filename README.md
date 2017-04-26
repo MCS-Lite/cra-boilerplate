@@ -22,5 +22,5 @@ $ yarn start
 * Pull requests must be accompanied by passing automated tests (`$ npm test`).
 
 ## [CHANGELOG](CHANGELOG.md)
-## [LICENSE](LICENSE.md)
+## [LICENSE](LICENSE)
 ## [COMMIT_LOG](COMMIT_LOG.md)
