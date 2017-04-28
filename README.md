@@ -1,5 +1,7 @@
 # cra-boilerplate [![Travis CI](https://travis-ci.org/MCS-Lite/cra-boilerplate.svg?branch=master)](https://travis-ci.org/MCS-Lite/cra-boilerplate)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MCS-Lite/cra-boilerplate.svg)](https://greenkeeper.io/)
+
 > Create a MCS Lite Web App based on Create-React-App.
 
 -   Try it online - http://cra-boilerplate.netlify.com/
