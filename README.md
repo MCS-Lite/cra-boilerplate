@@ -7,6 +7,12 @@
 
 ![DEMO](./docs/demo.gif)
 
+## Requirements
+
+-   node >= 8.0.0
+-   npm >= 5.0.0
+-   yarn >= 0.24.6
+
 ## Usage
 
 ```
