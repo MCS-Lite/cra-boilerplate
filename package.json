@@ -6,7 +6,7 @@
     "mcs-lite-connect": "^0.3.1",
     "mcs-lite-icon": "^0.3.1",
     "mcs-lite-theme": "^0.3.1",
-    "mcs-lite-ui": "^0.4.1",
+    "mcs-lite-ui": "^0.7.0",
     "normalize.css": "^7.0.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
