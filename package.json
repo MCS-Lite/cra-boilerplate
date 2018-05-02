@@ -5,7 +5,7 @@
   "dependencies": {
     "mcs-lite-connect": "^0.3.1",
     "mcs-lite-icon": "^0.3.1",
-    "mcs-lite-theme": "^0.3.1",
+    "mcs-lite-theme": "^0.4.3",
     "mcs-lite-ui": "^0.4.1",
     "normalize.css": "^7.0.0",
     "react": "^15.5.4",
