@@ -9,7 +9,7 @@
     "mcs-lite-ui": "^0.4.1",
     "normalize.css": "^7.0.0",
     "react": "^16.10.2",
-    "react-dom": "^15.5.4",
+    "react-dom": "^16.10.2",
     "styled-components": "^2.0.0"
   },
   "devDependencies": {
